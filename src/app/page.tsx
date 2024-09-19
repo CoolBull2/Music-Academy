@@ -3,6 +3,9 @@ import HeroSection from './components/HeroSection'
 import FeaturedCourses from "./components/FeaturedCourses";
 import WhyChooseUs from "./components/WhyChooseUs";
 import InfiniteCard from "./components/InfiniteCard";
+import UpcommingWeb from "./components/UpcommingWeb";
+import Instructors  from "./components/Instructors";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
@@ -11,6 +14,9 @@ export default function Home() {
     <FeaturedCourses />
     <WhyChooseUs />
     <InfiniteCard />
+    <UpcommingWeb />
+    <Instructors />
+    <Footer />
     </main>
     </>
   );
